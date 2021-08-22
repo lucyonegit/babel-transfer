@@ -1,0 +1,95 @@
+{
+  "type": "File",
+  "start": 0,
+  "end": 89,
+  "loc": {
+    "start": { "line": 1, "column": 0 },
+    "end": { "line": 5, "column": 0 }
+  },
+  "errors": [],
+  "program": {
+    "type": "Program",
+    "start": 0,
+    "end": 89,
+    "loc": {
+      "start": { "line": 1, "column": 0 },
+      "end": { "line": 5, "column": 0 }
+    },
+    "sourceType": "module",
+    "interpreter": null,
+    "body": [
+      {
+        "type": "VariableDeclaration",
+        "kind": "const",
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "id": {
+              "type": "ObjectPattern",
+              "properties": [
+                {
+                  "type": "ObjectProperty",
+                  "key": { "type": "Identifier", "name": "h" },
+                  "value": { "type": "Identifier", "name": "dieo" },
+                  "computed": false,
+                  "shorthand": false,
+                  "decorators": null
+                }
+              ]
+            },
+            "init": { "type": "Identifier", "name": "vue" }
+          }
+        ],
+        "trailingComments": [],
+        "leadingComments": [],
+        "innerComments": []
+      },
+      {
+        "type": "VariableDeclaration",
+        "kind": "const",
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "id": {
+              "type": "ObjectPattern",
+              "properties": [
+                {
+                  "type": "ObjectProperty",
+                  "key": { "type": "Identifier", "name": "map" },
+                  "value": { "type": "Identifier", "name": "map" },
+                  "computed": false,
+                  "shorthand": true,
+                  "decorators": null
+                }
+              ]
+            },
+            "init": { "type": "Identifier", "name": "echart" }
+          }
+        ],
+        "trailingComments": [],
+        "leadingComments": [],
+        "innerComments": []
+      },
+      {
+        "type": "VariableDeclaration",
+        "kind": "var",
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "id": { "type": "Identifier", "name": "app" },
+            "init": {
+              "type": "CallExpression",
+              "callee": { "type": "Identifier", "name": "require" },
+              "arguments": [{ "type": "StringLiteral", "value": "demo" }]
+            }
+          }
+        ],
+        "trailingComments": [],
+        "leadingComments": [],
+        "innerComments": []
+      }
+    ],
+    "directives": []
+  },
+  "comments": []
+}
